@@ -1,8 +1,14 @@
-import React from 'react'
+import FooterList from './footer/footerList'
+import FooterAdress from './footer/footerAdress'
+import FooterEnd from './footer/footerEnd'
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <>
+      <FooterList />
+      <FooterAdress />
+      <FooterEnd />
+    </>
   )
 }
 
