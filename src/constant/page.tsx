@@ -30,7 +30,14 @@ import brand3 from "@/assets/popularbrands/Frame 59103-1.svg"
 import brand4 from "@/assets/popularbrands/Frame 59103.svg"
 import brand5 from "@/assets/popularbrands/brands-1.svg"
 import brand6 from "@/assets/popularbrands/brands.svg"
-
+// footer list 
+import karta1 from "@/assets/FooterIcons/image 247.svg"
+import karta2 from "@/assets/FooterIcons/image 248.svg"
+import karta3 from "@/assets/FooterIcons/image 249.svg"
+import social1 from "@/assets/FooterIcons/linkedin.svg"
+import social2 from "@/assets/FooterIcons/instagram.svg"
+import social3 from "@/assets/FooterIcons/twitter.svg"
+import social4 from "@/assets/FooterIcons/facebook.svg"
 
 export const languages = [
   { code: "uz", name: "Uzb", flag: uzFlag },
@@ -311,5 +318,38 @@ export const FirstClient = [
     {
       id:7,
       img:brand5
+    },
+  ]
+
+  export const footerList = [
+    {
+        id:1,
+        title:"Company",
+        list:["About company", "Store addresses"],
+        category:"word"
+    },
+    {
+        id:2,
+        title:"Information",
+        list:["Installment plan", "Delivery", "Bonuses"],
+        category:"word"
+    },
+    {
+        id:3,
+        title:"Help for the buyer",
+        list:["Questions and answers", "How to place an order on the site", "Exchange and return"],
+        category:"word"
+    },
+    {
+        id:4,
+        title:"Payment method",
+        list:[karta1, karta2, karta3],
+        category:"image"
+    },
+    {
+        id:5,
+        title:"We are in social networks",
+        list:[social1, social2, social3, social4],
+        category:"image"
     },
   ]

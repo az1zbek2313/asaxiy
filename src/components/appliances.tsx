@@ -11,7 +11,7 @@ function Appliances() {
     <div className="flex items-center justify-center md:justify-between gap-4 py-2 md:py-4 flex-wrap">
       {
         productCards2.map(el => (
-          <ProductCards key={el.id} image={el.image} title={el.title}/>
+          <ProductCards styled='px-4' key={el.id} image={el.image} title={el.title}/>
         ))
       }
     </div>
